@@ -1,0 +1,13 @@
+<configuration>
+	<database>
+		<Name>dbcrawlermerlot</Name>
+		<User>root</User>
+		<Pass>1234</Pass>
+	</database>
+	<usersList>
+		<userID>8390</userID>
+		<userID>38783</userID>
+		<userID>10004</userID>
+		
+	</usersList>
+</configuration>
