@@ -63,6 +63,8 @@ public class RecsGenerator {
             String uid = ((Node)auxList.item(0)).getNodeValue().trim();
             usersArr.add( Integer.parseInt(uid));
         }
+        
+        DBConnection con = new DBConnection( "rosario","root", "1234");
         FileWriter fw = new FileWriter(new File("recommendations.json"));
         /* Objeto JSON de resposta */
         JSONArray result = new JSONArray();
@@ -92,6 +94,11 @@ public class RecsGenerator {
             //Recomendação geral
             FileDataModel modelGeneral = new FileDataModel(new File(general));
             List<RecommendedItem> listGeneral = builder.buildRecommender(modelGeneral).recommend(iduser, 2);
+            ArrayList<Integer> ids_rec_general = new ArrayList<Integer>(listGeneral.size());
+            for(int a1=0; a1<listGeneral.size();a1++){
+                ids_rec_general.add(a1, con.addRec(iduser, (int) (long)listGeneral.get(a1).getItemID(), Math.round(listGeneral.get(a1).getValue()), "general"));
+            }
+          
             //printList(iduser, listGeneral);
             
             
@@ -123,11 +130,14 @@ public class RecsGenerator {
             Collections.reverse(listClustersFinal);
             //printList(iduser, listClustersFinal);
             JSONArray objectsG = new JSONArray();
+            int a2=0;
             for(RecommendedItem rec : listGeneral){
                 JSONObject object = new JSONObject();
                 object.put("value", Math.round(rec.getValue()));
                 object.put("object", rec.getItemID()); 
+                object.put("id_rec", ids_rec_general.get(a2));
                 objectsG.put(object);
+                a2++;
             }
             JSONObject recommendationsG = new JSONObject();
             recommendationsG.put("recommendations", objectsG);
@@ -142,12 +152,19 @@ public class RecsGenerator {
             else{
                 listClustersFinal2 = listClustersFinal;
             }
+            ArrayList<Integer> ids_rec_clusters = new ArrayList<Integer>(listClustersFinal2.size());
+            for(int a3=0; a3<listClustersFinal2.size();a3++){
+                ids_rec_clusters.add(a3, con.addRec(iduser, (int) (long)listClustersFinal2.get(a3).getItemID(), Math.round(listClustersFinal2.get(a3).getValue()), "specific"));
+            }
+            int a4=0;
             JSONArray objectsC = new JSONArray();
             for(RecommendedItem recC : listClustersFinal2){
                 JSONObject object = new JSONObject();
                 object.put("value", Math.round(recC.getValue()));
                 object.put("object", recC.getItemID()); 
+                object.put("id_rec", ids_rec_clusters.get(a4));
                 objectsC.put(object);
+                a4++;
             }
             JSONObject recommendationsC = new JSONObject();
             recommendationsC.put("recommendations", objectsC);
