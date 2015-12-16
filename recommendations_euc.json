@@ -1,0 +1,275 @@
+[
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 1,
+                "value": 5,
+                "object": 74691
+            },
+            {
+                "id_rec": 2,
+                "value": 5,
+                "object": 74600
+            }
+        ]},
+        "user": 998144
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 3,
+            "value": 5,
+            "object": 76958
+        }]},
+        "user": 32944
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 4,
+            "value": 3,
+            "object": 272454
+        }]},
+        "user": 1080580
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 5,
+            "value": 4,
+            "object": 85752
+        }]},
+        "user": 1080766
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1081216
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1081305
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 6,
+                "value": 5,
+                "object": 75631
+            },
+            {
+                "id_rec": 7,
+                "value": 4,
+                "object": 78446
+            }
+        ]},
+        "user": 1081281
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 8,
+            "value": 4,
+            "object": 753743
+        }]},
+        "user": 1081380
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 9,
+                "value": 5,
+                "object": 77772
+            },
+            {
+                "id_rec": 10,
+                "value": 3,
+                "object": 88796
+            }
+        ]},
+        "user": 1081303
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 11,
+                "value": 5,
+                "object": 82909
+            },
+            {
+                "id_rec": 12,
+                "value": 5,
+                "object": 74640
+            }
+        ]},
+        "user": 1039998
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1077958
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1077739
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 13,
+                "value": 5,
+                "object": 789888
+            },
+            {
+                "id_rec": 14,
+                "value": 4,
+                "object": 1062064
+            }
+        ]},
+        "user": 1078464
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 15,
+                "value": 5,
+                "object": 89324
+            },
+            {
+                "id_rec": 16,
+                "value": 4,
+                "object": 75783
+            }
+        ]},
+        "user": 1077791
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 17,
+            "value": 5,
+            "object": 90917
+        }]},
+        "user": 1082477
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1082471
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1082496
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1080921
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 18,
+                "value": 5,
+                "object": 88983
+            },
+            {
+                "id_rec": 19,
+                "value": 5,
+                "object": 88970
+            }
+        ]},
+        "user": 1077620
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1080268
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1082883
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 20,
+                "value": 5,
+                "object": 1062064
+            },
+            {
+                "id_rec": 21,
+                "value": 5,
+                "object": 75630
+            }
+        ]},
+        "user": 1082899
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 22,
+                "value": 5,
+                "object": 80589
+            },
+            {
+                "id_rec": 23,
+                "value": 5,
+                "object": 75615
+            }
+        ]},
+        "user": 1082813
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 443451
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 24,
+                "value": 5,
+                "object": 789888
+            },
+            {
+                "id_rec": 25,
+                "value": 5,
+                "object": 75573
+            }
+        ]},
+        "user": 1082928
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 26,
+            "value": 4,
+            "object": 90081
+        }]},
+        "user": 1083433
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 27,
+            "value": 5,
+            "object": 222757
+        }]},
+        "user": 1055803
+    },
+    {
+        "general": {"recommendations": [{
+            "id_rec": 28,
+            "value": 4,
+            "object": 88898
+        }]},
+        "user": 1086238
+    },
+    {
+        "general": {"recommendations": []},
+        "user": 1080270
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 29,
+                "value": 5,
+                "object": 75573
+            },
+            {
+                "id_rec": 30,
+                "value": 5,
+                "object": 83289
+            }
+        ]},
+        "user": 1080298
+    }
+]

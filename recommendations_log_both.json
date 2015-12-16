@@ -1,74 +1,37 @@
 [
     {
-        "general": {"recommendations": [
-            {
-                "id_rec": 1,
-                "value": 5,
-                "object": 74691
-            },
-            {
-                "id_rec": 2,
-                "value": 5,
-                "object": 74600
-            }
-        ]},
-        "specific": {"recommendations": [
-            {
-                "id_rec": 3,
-                "value": 5,
-                "object": 74290
-            },
-            {
-                "id_rec": 4,
-                "value": 5,
-                "object": 74600
-            }
-        ]},
+        "general": {"recommendations": [{
+            "id_rec": 56,
+            "value": 3,
+            "object": 826450
+        }]},
         "user": 998144
     },
     {
-        "general": {"recommendations": [{
-            "id_rec": 5,
-            "value": 5,
-            "object": 76958
-        }]},
         "specific": {"recommendations": [{
-            "id_rec": 6,
+            "id_rec": 57,
             "value": 4,
             "object": 78233
         }]},
         "user": 32944
     },
     {
-        "general": {"recommendations": [{
-            "id_rec": 7,
-            "value": 3,
-            "object": 272454
-        }]},
         "specific": {"recommendations": [{
-            "id_rec": 8,
-            "value": 5,
+            "id_rec": 58,
+            "value": 4,
             "object": 76958
         }]},
         "user": 1080580
     },
     {
-        "general": {"recommendations": [{
-            "id_rec": 9,
-            "value": 4,
-            "object": 85752
-        }]},
-        "user": 1080766
-    },
-    {
         "general": {"recommendations": [
             {
-                "id_rec": 10,
+                "id_rec": 59,
                 "value": 5,
                 "object": 75631
             },
             {
-                "id_rec": 11,
+                "id_rec": 60,
                 "value": 4,
                 "object": 78446
             }
@@ -77,62 +40,31 @@
     },
     {
         "general": {"recommendations": [{
-            "id_rec": 12,
+            "id_rec": 61,
             "value": 4,
             "object": 753743
         }]},
         "user": 1081380
     },
     {
-        "general": {"recommendations": [
-            {
-                "id_rec": 13,
-                "value": 5,
-                "object": 77772
-            },
-            {
-                "id_rec": 14,
-                "value": 3,
-                "object": 88796
-            }
-        ]},
-        "specific": {"recommendations": [
-            {
-                "id_rec": 15,
-                "value": 5,
-                "object": 77850
-            },
-            {
-                "id_rec": 16,
-                "value": 5,
-                "object": 77772
-            }
-        ]},
+        "specific": {"recommendations": [{
+            "id_rec": 62,
+            "value": 4,
+            "object": 88898
+        }]},
         "user": 1081303
     },
     {
         "general": {"recommendations": [
             {
-                "id_rec": 17,
+                "id_rec": 63,
                 "value": 5,
                 "object": 82909
             },
             {
-                "id_rec": 18,
+                "id_rec": 64,
                 "value": 5,
-                "object": 74640
-            }
-        ]},
-        "specific": {"recommendations": [
-            {
-                "id_rec": 19,
-                "value": 5,
-                "object": 82909
-            },
-            {
-                "id_rec": 20,
-                "value": 4,
-                "object": 78549
+                "object": 763912
             }
         ]},
         "user": 1039998
@@ -140,18 +72,18 @@
     {
         "general": {"recommendations": [
             {
-                "id_rec": 21,
+                "id_rec": 65,
                 "value": 5,
                 "object": 789888
             },
             {
-                "id_rec": 22,
-                "value": 4,
+                "id_rec": 66,
+                "value": 5,
                 "object": 1062064
             }
         ]},
         "specific": {"recommendations": [{
-            "id_rec": 23,
+            "id_rec": 67,
             "value": 3,
             "object": 78531
         }]},
@@ -160,18 +92,18 @@
     {
         "general": {"recommendations": [
             {
-                "id_rec": 24,
+                "id_rec": 68,
                 "value": 5,
-                "object": 89324
+                "object": 789888
             },
             {
-                "id_rec": 25,
-                "value": 4,
-                "object": 75783
+                "id_rec": 69,
+                "value": 5,
+                "object": 83289
             }
         ]},
         "specific": {"recommendations": [{
-            "id_rec": 26,
+            "id_rec": 70,
             "value": 3,
             "object": 89324
         }]},
@@ -179,12 +111,12 @@
     },
     {
         "general": {"recommendations": [{
-            "id_rec": 27,
+            "id_rec": 71,
             "value": 5,
             "object": 90917
         }]},
         "specific": {"recommendations": [{
-            "id_rec": 28,
+            "id_rec": 72,
             "value": 5,
             "object": 90917
         }]},
@@ -193,12 +125,12 @@
     {
         "specific": {"recommendations": [
             {
-                "id_rec": 29,
+                "id_rec": 73,
                 "value": 4,
                 "object": 714857
             },
             {
-                "id_rec": 30,
+                "id_rec": 74,
                 "value": 4,
                 "object": 714362
             }
@@ -208,12 +140,12 @@
     {
         "specific": {"recommendations": [
             {
-                "id_rec": 31,
+                "id_rec": 75,
                 "value": 4,
                 "object": 78198
             },
             {
-                "id_rec": 32,
+                "id_rec": 76,
                 "value": 3,
                 "object": 78531
             }
@@ -223,25 +155,25 @@
     {
         "general": {"recommendations": [
             {
-                "id_rec": 33,
+                "id_rec": 77,
                 "value": 5,
-                "object": 88983
+                "object": 75779
             },
             {
-                "id_rec": 34,
+                "id_rec": 78,
                 "value": 5,
-                "object": 88970
+                "object": 88979
             }
         ]},
         "specific": {"recommendations": [
             {
-                "id_rec": 35,
+                "id_rec": 79,
                 "value": 5,
                 "object": 88983
             },
             {
-                "id_rec": 36,
-                "value": 4,
+                "id_rec": 80,
+                "value": 5,
                 "object": 88969
             }
         ]},
@@ -250,25 +182,25 @@
     {
         "general": {"recommendations": [
             {
-                "id_rec": 37,
+                "id_rec": 81,
                 "value": 5,
-                "object": 1062064
+                "object": 78160
             },
             {
-                "id_rec": 38,
+                "id_rec": 82,
                 "value": 5,
-                "object": 75630
+                "object": 90038
             }
         ]},
         "specific": {"recommendations": [
             {
-                "id_rec": 39,
+                "id_rec": 83,
                 "value": 5,
                 "object": 75630
             },
             {
-                "id_rec": 40,
-                "value": 4,
+                "id_rec": 84,
+                "value": 3,
                 "object": 78549
             }
         ]},
@@ -277,45 +209,53 @@
     {
         "general": {"recommendations": [
             {
-                "id_rec": 41,
+                "id_rec": 85,
                 "value": 5,
                 "object": 80589
             },
             {
-                "id_rec": 42,
+                "id_rec": 86,
                 "value": 5,
-                "object": 75615
+                "object": 78160
             }
         ]},
         "specific": {"recommendations": [
             {
-                "id_rec": 43,
+                "id_rec": 87,
                 "value": 5,
                 "object": 80589
             },
             {
-                "id_rec": 44,
-                "value": 4,
+                "id_rec": 88,
+                "value": 5,
                 "object": 78160
             }
         ]},
         "user": 1082813
     },
     {
+        "general": {"recommendations": [{
+            "id_rec": 89,
+            "value": 5,
+            "object": 89203
+        }]},
+        "user": 443451
+    },
+    {
         "general": {"recommendations": [
             {
-                "id_rec": 45,
+                "id_rec": 90,
                 "value": 5,
                 "object": 789888
             },
             {
-                "id_rec": 46,
+                "id_rec": 91,
                 "value": 5,
-                "object": 75573
+                "object": 74640
             }
         ]},
         "specific": {"recommendations": [{
-            "id_rec": 47,
+            "id_rec": 92,
             "value": 3,
             "object": 78531
         }]},
@@ -323,55 +263,27 @@
     },
     {
         "general": {"recommendations": [{
-            "id_rec": 48,
-            "value": 4,
-            "object": 90081
-        }]},
-        "user": 1083433
-    },
-    {
-        "general": {"recommendations": [{
-            "id_rec": 49,
+            "id_rec": 93,
             "value": 5,
             "object": 222757
         }]},
         "user": 1055803
     },
     {
-        "general": {"recommendations": [{
-            "id_rec": 50,
-            "value": 4,
-            "object": 88898
-        }]},
-        "specific": {"recommendations": [
-            {
-                "id_rec": 51,
-                "value": 4,
-                "object": 77771
-            },
-            {
-                "id_rec": 52,
-                "value": 4,
-                "object": 87925
-            }
-        ]},
-        "user": 1086238
-    },
-    {
         "general": {"recommendations": [
             {
-                "id_rec": 53,
+                "id_rec": 94,
                 "value": 5,
                 "object": 75573
             },
             {
-                "id_rec": 54,
+                "id_rec": 95,
                 "value": 5,
                 "object": 83289
             }
         ]},
         "specific": {"recommendations": [{
-            "id_rec": 55,
+            "id_rec": 96,
             "value": 3,
             "object": 78531
         }]},

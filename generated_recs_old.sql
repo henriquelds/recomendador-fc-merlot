@@ -31,7 +31,7 @@ CREATE TABLE `generated_recs` (
   `predicted_value` int(10) NOT NULL,
   `tipo` varchar(30) NOT NULL,
   PRIMARY KEY (`ID_Rec`)
-) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `generated_recs` (
 
 LOCK TABLES `generated_recs` WRITE;
 /*!40000 ALTER TABLE `generated_recs` DISABLE KEYS */;
-INSERT INTO `generated_recs` VALUES (1,998144,74691,5,'general'),(2,998144,74600,5,'general'),(3,998144,74290,5,'specific'),(4,998144,74600,5,'specific'),(5,32944,76958,5,'general'),(6,32944,78233,4,'specific'),(7,1080580,272454,3,'general'),(8,1080580,76958,5,'specific'),(9,1080766,85752,4,'general'),(10,1081281,75631,5,'general'),(11,1081281,78446,4,'general'),(12,1081380,753743,4,'general'),(13,1081303,77772,5,'general'),(14,1081303,88796,3,'general'),(15,1081303,77850,5,'specific'),(16,1081303,77772,5,'specific'),(17,1039998,82909,5,'general'),(18,1039998,74640,5,'general'),(19,1039998,82909,5,'specific'),(20,1039998,78549,4,'specific'),(21,1078464,789888,5,'general'),(22,1078464,1062064,4,'general'),(23,1078464,78531,3,'specific'),(24,1077791,89324,5,'general'),(25,1077791,75783,4,'general'),(26,1077791,89324,3,'specific'),(27,1082477,90917,5,'general'),(28,1082477,90917,5,'specific'),(29,1082471,714857,4,'specific'),(30,1082471,714362,4,'specific'),(31,1080921,78198,4,'specific'),(32,1080921,78531,3,'specific'),(33,1077620,88983,5,'general'),(34,1077620,88970,5,'general'),(35,1077620,88983,5,'specific'),(36,1077620,88969,4,'specific'),(37,1082899,1062064,5,'general'),(38,1082899,75630,5,'general'),(39,1082899,75630,5,'specific'),(40,1082899,78549,4,'specific'),(41,1082813,80589,5,'general'),(42,1082813,75615,5,'general'),(43,1082813,80589,5,'specific'),(44,1082813,78160,4,'specific'),(45,1082928,789888,5,'general'),(46,1082928,75573,5,'general'),(47,1082928,78531,3,'specific'),(48,1083433,90081,4,'general'),(49,1055803,222757,5,'general'),(50,1086238,88898,4,'general'),(51,1086238,77771,4,'specific'),(52,1086238,87925,4,'specific'),(53,1080298,75573,5,'general'),(54,1080298,83289,5,'general'),(55,1080298,78531,3,'specific');
+INSERT INTO `generated_recs` VALUES (1,8390,272425,5,'general'),(2,8390,272273,5,'general'),(3,8390,271507,4,'specific'),(4,38783,90081,5,'general'),(5,38783,80086,5,'general'),(6,38783,90081,5,'specific'),(7,10004,85752,4,'general'),(8,10004,80202,4,'general'),(9,10004,334114,4,'specific');
 /*!40000 ALTER TABLE `generated_recs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-12-16 11:28:19
+-- Dump completed on 2015-11-20 21:01:39

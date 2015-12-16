@@ -20,6 +20,7 @@ import org.apache.mahout.cf.taste.eval.RecommenderBuilder;
 import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
+import org.apache.mahout.cf.taste.impl.similarity.EuclideanDistanceSimilarity;
 import org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarity;
 import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity;
 import org.apache.mahout.cf.taste.model.DataModel;
@@ -45,7 +46,8 @@ public class RecsGenerator {
      */
     static ArrayList<Integer> usersArr = new ArrayList<Integer>();
     static String general = "general.txt";
-    static String[] clusters = {"k6-cluster1.txt","k6-cluster2.txt", "k6-cluster3.txt", "k6-cluster4.txt", "k6-cluster5.txt", "k6-cluster6.txt" };
+    //TROCAR NOMBES DOS CLUSTERS
+    static String[] clusters = {"k6-cluster5670.txt","k6-cluster5673.txt", "k6-cluster5677.txt", "k6-cluster5680.txt", "k6-cluster5684.txt", "k6-cluster5685.txt" };
     
     
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TasteException {
@@ -82,8 +84,9 @@ public class RecsGenerator {
         RecommenderBuilder builder = new RecommenderBuilder() {
             @Override
             public Recommender buildRecommender(DataModel dm) throws TasteException {
-                UserSimilarity sim = new LogLikelihoodSimilarity(dm);
+                UserSimilarity sim = new EuclideanDistanceSimilarity(dm);
                 //UserSimilarity sim = new PearsonCorrelationSimilarity(dm);
+                //UserSimilarity sim = new LogLikelihoodSimilarity(dm);
                 UserNeighborhood neighborhood = new NearestNUserNeighborhood(10, sim, dm);        
                 return new GenericUserBasedRecommender(dm, neighborhood, sim);
             }
@@ -104,6 +107,7 @@ public class RecsGenerator {
             
             
             //Recomendação em cada cluster
+            
             ArrayList<RecommendedItem> listClustersFinal = new ArrayList<RecommendedItem>();
             for(int k=1; k<7; k++){
                 FileDataModel modelCluster = new FileDataModel(new File(clusters[k-1]));
@@ -145,6 +149,7 @@ public class RecsGenerator {
             JSONObject obj_final = new JSONObject();
             obj_final.put("general", recommendationsG);
             obj_final.put("user", iduser);
+            
             List<RecommendedItem> listClustersFinal2;
             if(listClustersFinal.size() > 2){
                 listClustersFinal2 = listClustersFinal.subList(0, 2);

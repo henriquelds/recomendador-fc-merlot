@@ -1,0 +1,62 @@
+[
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 1,
+                "value": 5,
+                "object": 272425
+            },
+            {
+                "id_rec": 2,
+                "value": 5,
+                "object": 272273
+            }
+        ]},
+        "specific": {"recommendations": [{
+            "id_rec": 3,
+            "value": 4,
+            "object": 271507
+        }]},
+        "user": 8390
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 4,
+                "value": 5,
+                "object": 90081
+            },
+            {
+                "id_rec": 5,
+                "value": 5,
+                "object": 80086
+            }
+        ]},
+        "specific": {"recommendations": [{
+            "id_rec": 6,
+            "value": 5,
+            "object": 90081
+        }]},
+        "user": 38783
+    },
+    {
+        "general": {"recommendations": [
+            {
+                "id_rec": 7,
+                "value": 4,
+                "object": 85752
+            },
+            {
+                "id_rec": 8,
+                "value": 4,
+                "object": 80202
+            }
+        ]},
+        "specific": {"recommendations": [{
+            "id_rec": 9,
+            "value": 4,
+            "object": 334114
+        }]},
+        "user": 10004
+    }
+]
