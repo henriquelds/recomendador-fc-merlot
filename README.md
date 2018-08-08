@@ -6,6 +6,6 @@ Usam-se 2 métodos diferentes: um que considera a base de dados total das avalia
 
 As recomendações são exportadas para o arquivo recommendatios.json e também inseridas numa base de dados MySql cujo schema está contido no arquivo db_struct.sql.
 
-As configurações da base de dados MySql (nome, senha e host) devem ser alteradas no arquivo config/config.xml
+As configurações da base de dados MySql (nome, senha e host) devem ser alteradas no arquivo config/config.xml. Neste mesmo arquivo deve ser inserida a lista de IDs de usuários voluntários (aqueles que terão as recomendações calculadas)
 
 Autores: Henrique Lemos dos Santos - hlsantos@inf.ufrgs.br Cristian Cechinel - contato@cristiancechinel.pro.br
