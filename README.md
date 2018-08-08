@@ -1,9 +1,11 @@
-Recommendations provider for voluntaries at the MERLOT repository.
+# Recomendador de objetos de aprendizagem baseado em filtragem colaborativa
 
-The recommendations file (recommendations.json) is used in order to show the recommended objects for each user later.
+Gerador de recomendações para usuários voluntários do repositório MERLOT (www.merlot.org) baseado em filtragem colaborativa.
 
-Two methods used: traditional collaborative filtering (using database general.txt) and clustering method (using k6-cluster****.txt files)
+Usam-se 2 métodos diferentes: um que considera a base de dados total das avaliações do Merlot (arquivo general.txt) e outro que considera bases de dados "clusterizadas" com base em conteúdo (arquivos k6-cluster****.txt) 
 
-Also, the recommendations are stored in a MySql table called generated_recs, that can be imported with the file db_struct.sql
+As recomendações são exportadas para o arquivo recommendatios.json e também inseridas numa base de dados MySql cujo schema está contido no arquivo db_struct.sql.
 
-Database name, user and password must be set at config/config.xml file.
+As configurações da base de dados MySql (nome, senha e host) devem ser alteradas no arquivo config/config.xml
+
+Autores: Henrique Lemos dos Santos - hlsantos@inf.ufrgs.br Cristian Cechinel - contato@cristiancechinel.pro.br
