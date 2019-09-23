@@ -1,11 +1,11 @@
-# Recomendador de objetos de aprendizagem baseado em filtragem colaborativa
+# Learning Objects recommender using collaborative filtering
 
-Gerador de recomendações para usuários voluntários do repositório MERLOT (www.merlot.org) baseado em filtragem colaborativa.
+We generate recommendations for volunteers users from MERLOT repository (www.merlot.org).
 
-Usam-se 2 métodos diferentes: um que considera a base de dados total das avaliações do Merlot (arquivo general.txt) e outro que considera bases de dados "clusterizadas" com base em conteúdo (arquivos k6-cluster****.txt) 
+There are two different appŕoaches currently coded: the first one considers the entire Merlot database (file general.txt) and the second one considers only the clustered (by content -- title and description of the learning object) databases (files k6-cluster****.txt)
 
-As recomendações são exportadas para o arquivo recommendatios.json e também inseridas numa base de dados MySql cujo schema está contido no arquivo db_struct.sql.
+The recommendations are then exported to a file named recommendations.json and also inserted into a MYSql database (schema is described in db_struct.sql)
 
-As configurações da base de dados MySql (nome, senha e host) devem ser alteradas no arquivo config/config.xml. Neste mesmo arquivo deve ser inserida a lista de IDs de usuários voluntários (aqueles que terão as recomendações calculadas)
+Database configs (login, psswd and host) should be modified in config/config.xml. In this same file, one may insert the volunteers users IDs list.
 
-Autores: Henrique Lemos dos Santos - hlsantos@inf.ufrgs.br Cristian Cechinel - contato@cristiancechinel.pro.br
+Authors: Henrique Lemos dos Santos - hlsantos@inf.ufrgs.br Cristian Cechinel - contato@cristiancechinel.pro.br
